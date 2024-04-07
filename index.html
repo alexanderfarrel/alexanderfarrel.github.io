@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Alexz Portofolio</title>
+    <!-- Style CSS Links -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+
+    <!-- Icon Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Zoom In Image -->
+    <div class="popup">
+      <span>&times;</span>
+      <img src="dist/img/profile2.jpg" alt="" />
+    </div>
+
+    <!-- header -->
+    <header class="header" data-aos="fade-down" data-aos-duration="1000">
+      <a href="#" class="logo"><span>Alex</span>ander</a>
+
+      <nav>
+        <ul class="navlist">
+          <li class="li1"><a href="#home">Home <div class="underline"><span></span></div></a></li>
+          <li class="li2"><a href="#about">About <div class="underline"><span></span></div></a></li>
+          <li class="li3"><a href="#certificate">Certificate <div class="underline"><span></span></div></a></li>
+          <li class="li4"><a href="#portofolio">Portofolio <div class="underline"><span></span></div></a></li>
+          <li class="li5"><a href="#contact">Contact <div class="underline"><span></span></div></a></li>
+        </ul>
+        <div class="list">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="content" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
+        <h4>Hi Everyone! 👋🏻</h4>
+        <h1>I'm <span>Alex</span>ander Chiko</h1>
+        <p>Web Developer | High School Students</p>
+        <div class="social">
+          <a href="https://www.instagram.com/alexzf.w/"><i class="ri-instagram-line"></i></a>
+          <a href="https://x.com/al20070312?t=4OeRw6saLOPXFyb0AEy3Sw&s=09"><i class="ri-twitter-x-line"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100004100161216&mibextid=ZbWKwL"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="https://www.tiktok.com/@highyyy_?_t=8fxOF9wxAED&_r=1"><i class="ri-tiktok-line"></i></a>
+          <a href="https://www.linkedin.com/in/alexander-farrel-6055b5277"><i class="ri-linkedin-box-fill"></i></a>
+        </div>
+        <div class="main-btn">
+          <a href="https://www.instagram.com/alexzf.w/" class="btn">Contact Me</a>
+        </div>
+      </div>
+      <aside class="sliders" data-aos="fade-down" data-aos-duration="700" data-aos-delay="500">
+        <input type="radio" name="input-hidden" id="i-1" checked />
+        <input type="radio" name="input-hidden" id="i-2" />
+        <input type="radio" name="input-hidden" id="i-3" />
+        <div class="img">
+          <img
+            src="dist/img/Formal Profile4.jpg"
+            alt="myself picture"
+            width="400px"
+            class="i-1"
+          />
+          <img
+            src="dist/img/Formal Profile.jpg"
+            alt="myself picture"
+            width="400px"
+            class="i-2"
+          />
+          <img
+            src="dist/img/Formal Profile3.jpg"
+            alt="myself picture"
+            width="400px"
+            class="i-3"
+          />
+        </div>
+        <div class="dots">
+          <label for="i-1"></label>
+          <label for="i-2"></label>
+          <label for="i-3"></label>
+        </div>
+      </aside>
+    </section>
+
+    <!-- wave start -->
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#1aceb9"
+        fill-opacity="1"
+        d="M0,192L48,170.7C96,149,192,107,288,90.7C384,75,480,85,576,112C672,139,768,181,864,208C960,235,1056,245,1152,224C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+
+    <!-- About -->
+    <section class="about" id="about" >
+      <div class="text-center">
+        <h2><span>About</span> Myself</h2>
+      </div>
+      <article class="container">
+        <aside>
+          <div class="about-img">
+            <img src="dist/img/profile2.jpg" alt="myself picture" />
+          </div>
+          <div class="about-text">
+            <h2>I'm <span>high school student</span> who loves programming</h2>
+            <div class="description">
+              <p>Name : <span>Alexander Chiko Farrel Widagdo</span></p>
+              <p>Address : <span>Jl. Margobawero, Madiun</span></p>
+              <p>School : <span>SMA Negeri 1 Madiun</span></p>
+              <p>Email : <span>chikofarrel@gmail.com</span></p>
+            </div>
+            <a href="#portofolio" class="btn">View Project</a>
+          </div>
+        </aside>
+        <article class="skills">
+          <div class="card">
+            <h2>Skills</h2>
+            <div class="box">
+              <a href="#"
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/48/html-5--v1.png"
+                  alt="html-5--v1"
+              /></a>
+              <a href="#"
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/fluency/48/css3.png"
+                  alt="css3"
+              /></a>
+              <a href="#"
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/48/javascript--v1.png"
+                  alt="javascript--v1"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color-glass/48/bootstrap.png"
+                  alt="bootstrap"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/240/sass.png"
+                  alt="sass"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/48/tailwindcss.png"
+                  alt="tailwindcss"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/plasticine/80/react.png"
+                  alt="react"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/48/nextjs.png"
+                  alt="nextjs"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/48/nodejs.png"
+                  alt="nodejs"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/nolan/64/mongo-db.png"
+                  alt="mongo-db"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/48/npm.png"
+                  alt="npm"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/fluency/48/node-js.png"
+                  alt="node-js"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/ios/50/express-js.png"
+                  alt="express-js"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/48/git.png"
+                  alt="git"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/ios-glyphs/30/github.png"
+                  alt="github"
+              /></a>
+              <a href=""
+                ><img
+                  width="80"
+                  src="https://img.icons8.com/color/48/firebase.png"
+                  alt="firebase"
+              /></a>
+            </div>
+          </div>
+        </article>
+      </article>
+    </section>
+
+    <!-- Certificate -->
+    <section class="certificate" id="certificate">
+      <div class="text-center">
+        <h2>My <span>Certificate</span></h2>
+      </div>
+      <article>
+        <div class="wrapper">
+          <i id="left" class="ri-arrow-left-s-line left-2"></i>
+          <i id="left" class="ri-arrow-left-s-line left-1"></i>
+          <ul class="box">
+            <li class="card" id="1">
+              <div class="img">
+                <img
+                  src="dist/img/Certificate - Alexander Chiko Farrel Widagdo.jpg"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From Alibaba Cloud</h2>
+                <span>27 September 2023</span>
+              </div>
+            </li>
+            <li class="card" id="2">
+              <div class="img">
+                <img
+                  src="dist/img/sertifikat_course_123_3013425_270923072448-1.png"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From Dicoding Indonesia (Web Developer)</h2>
+                <span>27 September 2023</span>
+              </div>
+            </li>
+            <li class="card" id="3">
+              <div class="img">
+                <img
+                  src="dist/img/certificate (10)-1.png"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From Codepolitan (express.js)</h2>
+                <span>27 September 2023</span>
+              </div>
+            </li>
+            <li class="card" id="4">
+              <div class="img">
+                <img
+                  src="dist/img/certificate (6)-1.png"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From Codepolitan (OOP Javascript)</h2>
+                <span>27 September 2023</span>
+              </div>
+            </li>
+            <li class="card" id="5">
+              <div class="img">
+                <img
+                  src="dist/img/Front End Dicoding.png"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From Dicoding Indonesia (Front End Dev)</h2>
+                <span>27 September 2023</span>
+              </div>
+            </li>
+            <li class="card" id="6">
+              <div class="img">
+                <img
+                  src="dist/img/Javascript Dicoding.png"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From Dicoding Indonesia (Javascript)</h2>
+                <span>27 September 2023</span>
+              </div>
+            </li>
+            <li class="card" id="7">
+              <div class="img">
+                <img
+                  src="dist/img/Alexander Chiko Farrel Widagdo Certificate.jpg"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From BrightCHAMPS</h2>
+                <span>30 April 2023</span>
+              </div>
+            </li>
+            <li class="card" id="8">
+              <div class="img">
+                <img
+                  src="dist/img/Certificate - Alexander Chiko Farrel Widagdo-1.png"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From Rise</h2>
+                <span>25 August 2023</span>
+              </div>
+            </li>
+            <li class="card" id="9">
+              <div class="img">
+                <img
+                  src="dist/img/Sertifikat Alexander Chiko Farrel Widagdo-1.jpg"
+                  alt="certificate"
+                  draggable="false"
+                />
+              </div>
+              <div class="img-description">
+                <h2>Certificate From Edspert.id</h2>
+                <span>20 June 2023</span>
+              </div>
+            </li>
+          </ul>
+          <i id="right" class="ri-arrow-right-s-line right-2"></i>
+          <i id="right" class="ri-arrow-right-s-line right-1"></i>
+        </div>
+      </article>
+    </section>
+
+    <!-- Portofolio -->
+    <section class="portofolio" id="portofolio">
+      <div class="text-center">
+        <h2>My <span>Portofolio</span></h2>
+      </div>
+      <div class="content">
+          <div class="row">
+            <div class="img">
+              <img
+                src="dist/img/thumbnail.PNG"
+                alt="Project"
+                class="t-1"
+              />
+            </div>
+            <div class="main-row">
+              <div class="row-text">
+                <h4>E-commerce Concept</h4>
+                <p class="capitalize">there are many features that I have created such as authentication, admin panel, dark mode and others, as well as features that I will add such as chat for customer services, payment gateway and many more.</p>
+                <h5>Tech Stack : <span>Next.js, Tailwind, Firebase</span></h5>
+                <a href="https://warungjujugan.vercel.app" target="_blank">Try Demo</a>
+              </div>
+              <div class="row-icon">
+                <a href="https://github.com/alexander-chiko/warung-jujugan" target="_blank">
+                  <i class="ri-github-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="img">
+              <img
+                src="dist/img/thumbnail.PNG"
+                alt="Project"
+                class="t-1"
+              />
+            </div>
+            <div class="main-row">
+              <div class="row-text">
+                <h4>E-commerce Concept</h4>
+                <p class="capitalize">there are many features that I have created such as authentication, admin panel, dark mode and others, as well as features that I will add such as chat for customer services, payment gateway and many more.</p>
+                <h5>Tech Stack : <span>Next.js, Tailwind, Firebase</span></h5>
+                <a href="https://warungjujugan.vercel.app" target="_blank">Try Demo</a>
+              </div>
+              <div class="row-icon">
+                <a href="https://github.com/alexander-chiko/warung-jujugan" target="_blank">
+                  <i class="ri-github-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="img">
+              <img
+                src="dist/img/thumbnail.PNG"
+                alt="Project"
+                class="t-1"
+              />
+            </div>
+            <div class="main-row">
+              <div class="row-text">
+                <h4>E-commerce Concept</h4>
+                <p class="capitalize">there are many features that I have created such as authentication, admin panel, dark mode and others, as well as features that I will add such as chat for customer services, payment gateway and many more.</p>
+                <h5>Tech Stack : <span>Next.js, Tailwind, Firebase</span></h5>
+                <a href="https://warungjujugan.vercel.app" target="_blank">Try Demo</a>
+              </div>
+              <div class="row-icon">
+                <a href="https://github.com/alexander-chiko/warung-jujugan" target="_blank">
+                  <i class="ri-github-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="img">
+              <img
+                src="dist/img/thumbnail.PNG"
+                alt="Project"
+                class="t-1"
+              />
+            </div>
+            <div class="main-row">
+              <div class="row-text">
+                <h4>E-commerce Concept</h4>
+                <p class="capitalize">there are many features that I have created such as authentication, admin panel, dark mode and others, as well as features that I will add such as chat for customer services, payment gateway and many more.</p>
+                <h5>Tech Stack : <span>Next.js, Tailwind, Firebase</span></h5>
+                <a href="https://warungjujugan.vercel.app" target="_blank">Try Demo</a>
+              </div>
+              <div class="row-icon">
+                <a href="https://github.com/alexander-chiko/warung-jujugan" target="_blank">
+                  <i class="ri-github-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="img">
+              <img
+                src="dist/img/thumbnail.PNG"
+                alt="Project"
+                class="t-1"
+              />
+            </div>
+            <div class="main-row">
+              <div class="row-text">
+                <h4>E-commerce Concept</h4>
+                <p class="capitalize">there are many features that I have created such as authentication, admin panel, dark mode and others, as well as features that I will add such as chat for customer services, payment gateway and many more.</p>
+                <h5>Tech Stack : <span>Next.js, Tailwind, Firebase</span></h5>
+                <a href="https://warungjujugan.vercel.app" target="_blank">Try Demo</a>
+              </div>
+              <div class="row-icon">
+                <a href="https://github.com/alexander-chiko/warung-jujugan" target="_blank">
+                  <i class="ri-github-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="img">
+              <img
+                src="dist/img/thumbnail.PNG"
+                alt="Project"
+                class="t-1"
+              />
+            </div>
+            <div class="main-row">
+              <div class="row-text">
+                <h4>E-commerce Concept</h4>
+                <p class="capitalize">there are many features that I have created such as authentication, admin panel, dark mode and others, as well as features that I will add such as chat for customer services, payment gateway and many more.</p>
+                <h5>Tech Stack : <span>Next.js, Tailwind, Firebase</span></h5>
+                <a href="https://warungjujugan.vercel.app" target="_blank">Try Demo</a>
+              </div>
+              <div class="row-icon">
+                <a href="https://github.com/alexander-chiko/warung-jujugan" target="_blank">
+                  <i class="ri-github-fill"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="text-center">
+        <h2><span>Contact</span> Me</h2>
+        <p>⬇️ Kirim Pesan Untuk <span>Alex</span> ⬇️</p>
+      </div>
+
+      <div class="contact-form">
+        <form action="" onsubmit="return sender()">
+          <div class="inputBox">
+            <input type="text" required id="name" class="t-1" />
+            <span id="t-1">Your Name</span> <i id="t-1"></i>
+          </div>
+          <div class="inputBox mt" >
+            <textarea name="" id="message" cols="30" rows="10" class="t-3"></textarea>
+            <span id="t-3">Send Message</span> <i id="t-3"></i>
+          </div>
+          <input
+            type="submit"
+            name=""
+            value="Send Massage"
+            class="btn send-btn"
+          
+          />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="col">
+          <h2 class="footer-title">
+            Alex<span>ander</span>
+            <div class="underline underline-1"><span></span></div>
+          </h2>
+          <p class="paragraf">
+            This portfolio website was created using HTML, CSS, and Javascript
+            without any framework like tailwind and bootstrap or library like
+            react. but uses CDN from
+            <a href="https://remixicon.com" target="_blank">Remixicon</a> for
+            icon image needs
+          </p>
+        </div>
+        <div class="col special">
+          <h2 class="footer-title">
+            Links
+            <div class="underline underline-2"><span></span></div>
+          </h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#certificate">Certificate</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2 class="footer-title">
+            Social Media
+            <div class="underline underline-3"><span></span></div>
+          </h2>
+          <div class="social-icon" >
+            <a href="https://www.instagram.com/alexzf.w/"><i class="ri-instagram-line"></i></a>
+          <a href="https://x.com/al20070312?t=4OeRw6saLOPXFyb0AEy3Sw&s=09"><i class="ri-twitter-x-line"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100004100161216&mibextid=ZbWKwL"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="https://www.tiktok.com/@highyyy_?_t=8fxOF9wxAED&_r=1"><i class="ri-tiktok-line"></i></a>
+          <a href="https://www.linkedin.com/in/alexander-farrel-6055b5277"><i class="ri-linkedin-box-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="copyright">
+        Dibuat dengan sepenuh hati ❤️ oleh <span>Alex</span>ander &copy; 2023
+      </p>
+    </footer>
+
+    <!-- Javascript Link -->
+    <script src="dist/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init()
+    </script>
+  </body>
+</html>
